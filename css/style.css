@@ -14,16 +14,17 @@ body{
 
 .card{
   background:rgba(199, 33, 33, 0.342);
-  width: 600px;
-  height: 100px;
   padding:20px;
-  display:flex;
+  width:600px;
+  display: flex;
   margin-left:auto;
   margin-right: auto;
   border-radius: 10px;
+  flex-direction: column;
 }
 
 .title{
+  display: block;
   color:white;
   margin-left:auto;
   margin-right:auto;
